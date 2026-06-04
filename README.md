@@ -1,16 +1,24 @@
-# React + Vite
+# 🌱 Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, full-featured habit tracking app built with React and Vite. Track your daily habits, visualize progress, stay focused with a Pomodoro timer, and build streaks that keep you motivated.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Daily Tracking** — Check off habits each day, add notes, and filter by category
+- **Streak Counter** — Automatically tracks your current streak for each habit
+- **Calendar View** — See your completion history at a glance across the whole month
+- **Analytics** — 7-day success rate, 30-day bar chart, best day of the week heatmap, and per-habit breakdowns
+- **Pomodoro Timer** — Built-in focus timer with short and long break modes, custom durations, and session history
+- **Dark / Light Mode** — Toggle between themes, preference saved automatically
+- **Export Data** — Download your full history as JSON or CSV
+- **Responsive** — Works on mobile and desktop with a sidebar on larger screens
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React 18](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- Context API for global state (theme, auth)
+- Custom hooks for habit and Pomodoro logic
+- localStorage for data persistence
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
